@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  width: 100%;
+  height: auto;
+}
+
+.box {
+  width:100%;
+  height: auto;
+  overflow: hidden;
+  background-color: #fafafa;
+  text-align: center;
+  overflow: hidden;
+  padding: 1%;
+}
+
+.box-image {
+  width:90%;
+  height: auto;
+  margin: auto;
+  overflow: hidden;
+  padding: 1%;
+}
+
+.imagem { max-width: 100%; }
+
+.btnNext, .btnPrevius {
+  width: 10%;
+  height: 40px;
+  background-color: rgb(236, 240, 241);
+  cursor: pointer;
+  outline:none;
+  border: none;
+  margin-top: 2%;
+}
+
+.btnNext:hover, .btnPrevius:hover{
+  background-color: rgb(189, 195, 199);
+}
+
+@media screen and (max-width: 1020px){
+  .box-image {
+    width:100%;
+  }
+}
+
+@media screen and (max-width: 720px){
+  .btnNext, .btnPrevius {
+    width: 20%;
+  }
+}
